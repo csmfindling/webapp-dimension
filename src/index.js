@@ -7,8 +7,6 @@ import './index.css';
 import Intro from "./components/Intro/Intro";
 import Board from "./components/Board/Board";
 import Block from "./components/Block/Block";
-//<RefreshRoute path="/Block" component={Block} exact />
-
 
 const RefreshRoute = ({ component: Component, isDataAvailable, ...rest }) => (    
   <Route
@@ -35,6 +33,7 @@ const App = () => {
             <Switch>                
                 <Route path="/" component={Intro} exact />
                 <RefreshRoute path="/Board" component={Board} exact />
+                <RefreshRoute path="/Block" component={Block} exact />
             </Switch>
         </BrowserRouter>
     );
