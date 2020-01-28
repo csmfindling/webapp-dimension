@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import './index.css';
 import Intro from "./components/Intro/Intro";
 import Board from "./components/Board/Board";
-import Block from "./components/Block/Block";
+//import Block from "./components/Block/Block";
 
 
 const RefreshRoute = ({ component: Component, isDataAvailable, ...rest }) => (    
@@ -34,7 +34,7 @@ const App = () => {
             <Switch>                
                 <Route path="/" component={Intro} exact />
                 <RefreshRoute path="/Board" component={Board} exact />
-                <RefreshRoute path="/Block" component={Block} exact />
+                //<RefreshRoute path="/Block" component={Block} exact />
             </Switch>
         </BrowserRouter>
     );
