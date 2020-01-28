@@ -1,0 +1,67 @@
+
+.symbol {
+  width: 50%;
+  height: 50%;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;    
+  border: 2px solid LightGrey;
+  border-radius: 5px;    
+}
+
+.activate{
+  animation: fadeIn 2s;
+}
+
+.reset {
+  animation: fadeOut .5s;
+  animation-delay: .8s;
+  animation-fill-mode: forwards;
+}
+
+.selected{
+  border: 2px solid black;
+  border-radius: 5px;  
+}
+
+.feedback {
+  width: 90px;
+  height: 90px;
+  margin-top:20px;    
+  transition-delay: .0s;
+  font-size: 400%;
+  font-weight: 400;
+}
+
+.feedbacknull {
+  opacity: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    transform: scale(1);  
+    opacity: 1;  
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
