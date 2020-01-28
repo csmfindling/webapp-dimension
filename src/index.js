@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import './index.css';
 import Intro from "./components/Intro/Intro";
 import Board from "./components/Board/Board";
-//import Block from "./components/Block/Block";
+import Block from "./components/Block/Block";
 //<RefreshRoute path="/Block" component={Block} exact />
 
 
