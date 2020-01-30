@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import {withRouter} from 'react-router-dom';
 import { API_URL } from '../../config';
 import { handleResponse } from '../helpers';
@@ -175,12 +174,7 @@ class Block extends React.Component {
       return (
         <div className="restarttraining">
          {text}  <div className="translate"/>
-      </div>);                 
-/*      return (
-        <div className="restarttraining">
-         {text}  <div className="translate"/>
-        <div> <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.restartTraining()}> Restart training </Button></div>
-      </div>);*/
+      </div>);
     }
     else if ((this.state.participant_info.block_number === 1) && (this.state.newblock_frame===false))
     {
@@ -197,7 +191,8 @@ class Block extends React.Component {
     }
     else if (this.state.participant_info.block_number === this.state.participant_info.blocks_ids.length)
     {
-      text = 'Your performance was of ' + this.state.score + '%. Impressive! Thank you for your participation'
+      text = <div><p>Your performance is of {this.state.score} out of 100. Impressive! Thank you for your participation</p>
+      <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick="location.href = 'https://app.prolific.co/submissions/complete?cc=30D8D1A9'"> Click here </Button></div>
         return (
       <div className="block">
         {text}           
