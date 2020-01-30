@@ -8,14 +8,12 @@
 
 .brick1 {
   float: right;
-  overflow: auto;
   width: 300px;
   margin-right:4%;
 }
 
 .brick2 {
   float: left;
-  overflow: auto;
   width: 300px;
   margin-left:4%;
 }
