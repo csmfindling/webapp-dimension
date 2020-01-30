@@ -101,7 +101,7 @@ class Intro extends React.Component {
    } 
    else if (this.state.count === 1) {
         mytext = <div className='text'> <p> The higher the rewards you win, the more money you will get at the end of the experiment. </p>
-                 <p> Overall, you can win between up to £3 as an extra bonus. </p></div>;
+                 <p> Overall, you can win up to £3 as a bonus. </p></div>;
    }
    else if (this.state.count === 2) {
         mytext = <div className='text'> <p> At each trial, you must choose between two symbols. Each symbol will vary along three dimensions : shape, color and grating direction. </p>
@@ -115,7 +115,7 @@ class Intro extends React.Component {
    }
    else if (this.state.count === 3){
         mytext = <div className='text'> <p>  </p>
-                 <p> Let's begin the training </p></div>;
+                 <p> Let's begin the training. </p></div>;
    }
    // define buttons
    let multibutton
