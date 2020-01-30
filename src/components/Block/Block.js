@@ -152,7 +152,8 @@ class Block extends React.Component {
     let text
     if ((this.state.participant_info.block_number === 0) && this.state.newblock_frame)
     {
-      text = 'Press spacebar to start first training block'
+      text = <div><p> For this first training block, we will inform you on the relevant dimension. It is the {this.state.block_info.correct_dimension}! </p> 
+                  <p> Press spacebar to start first training block </p> </div>
         return (
       <div className="block">
         {text}           
@@ -160,7 +161,7 @@ class Block extends React.Component {
     } 
     else if ((this.state.participant_info.block_number === 1) && this.state.newblock_frame)
     {
-      text = <div><p> Identify the relevant dimension to maximize your rewards </p> 
+      text = <div><p> For this second training block, we do not inform you on the relevant dimension, you must identify it !</p> 
                   <p> Press spacebar to start second training block </p> </div>
         return (
       <div className="block">
@@ -169,7 +170,7 @@ class Block extends React.Component {
     }     
     else if ((this.state.participant_info.block_number === 0) && (this.state.newblock_frame===false))
     {
-      text = <div><p> Did you identify the relevant dimension? It was the {this.state.block_info.correct_dimension}! </p>
+      text = <div><p> End of training block 1 </p>
                     <div className="translatetext"/>
                  <p> Press spacebar to continue</p></div>
       return (
@@ -182,7 +183,7 @@ class Block extends React.Component {
       text = <div><p> Did you identify the relevant dimension? It was the {this.state.block_info.correct_dimension}! </p>
                     <p> Let's start the task now </p>
                     <p> Identifying the relevant dimension will be harder than during the training blocks, so pay attention! </p>
-                    <p> Furthermore, to verify that you are paying attention, the relevant dimension will be indicated at the beginning of some blocks </p>
+                    <p> Furthermore, to verify that you are paying attention, the relevant dimension will be indicated at the beginning of some blocks (as in the first training block) </p>
                     <div className="translatetext"/>
                  <p> Press spacebar to start task</p></div>
       return (
