@@ -221,7 +221,8 @@ class Block extends React.Component {
                 <p> Press spacebar to start block {this.state.participant_info.block_number - 1} </p> </div>
         }
         else
-          {text = 'End of block '  + (this.state.participant_info.block_number - 1)}
+          {text = <div><p>End of block {this.state.participant_info.block_number - 1}</p> 
+                  <p> Press spacebar to continue</p></div>}
         return (
       <div className="block">
         {text}           
