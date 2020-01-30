@@ -152,8 +152,8 @@ class Block extends React.Component {
     let text
     if ((this.state.participant_info.block_number === 0) && this.state.newblock_frame)
     {
-      text = <div><p> For this first training block, we will inform you on the relevant dimension. It is the {this.state.block_info.correct_dimension}! </p> 
-                  <p> Press spacebar to start first training block </p> </div>
+      text = <div><p> For this first training block, we will inform you of the relevant dimension. It is the {this.state.block_info.correct_dimension}! </p> 
+                  <p> Press spacebar to start the first training block. </p> </div>
         return (
       <div className="block">
         {text}           
@@ -161,8 +161,8 @@ class Block extends React.Component {
     } 
     else if ((this.state.participant_info.block_number === 1) && this.state.newblock_frame)
     {
-      text = <div><p> For this second training block, we do not inform you on the relevant dimension, you must identify it !</p> 
-                  <p> Press spacebar to start second training block </p> </div>
+      text = <div><p> For this second training block, we will not inform you of the relevant dimension. You must identify it !</p> 
+                  <p> Press spacebar to start the second training block. </p> </div>
         return (
       <div className="block">
         {text}           
@@ -185,7 +185,7 @@ class Block extends React.Component {
                     <p> Identifying the relevant dimension will be harder than during the training blocks, so pay attention! </p>
                     <p> Furthermore, to verify that you are paying attention, the relevant dimension will be indicated at the beginning of some blocks (as in the first training block) </p>
                     <div className="translatetext"/>
-                 <p> Press spacebar to start task</p></div>
+                 <p> Press spacebar to start the task.</p></div>
       return (
         <div className="restarttraining">
          {text}  <div className="translate"/>
@@ -193,7 +193,7 @@ class Block extends React.Component {
     }
     else if (this.state.participant_info.block_number === this.state.participant_info.blocks_ids.length)
     {
-      text = <div><p>Your performance is of {this.state.score} out of 100. Impressive! Thank you for your participation</p>
+      text = <div><p>Your performance score is {this.state.score} out of 100. Impressive! Thank you for your participation.</p>
       <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick="location.href = 'https://app.prolific.co/submissions/complete?cc=30D8D1A9'"> Click here </Button></div>
         return (
       <div className="block">
@@ -211,15 +211,15 @@ class Block extends React.Component {
           }
           else
           {
-            text_unidimensional = 'Identify the relevant dimension to maximize your rewards'
+            text_unidimensional = 'Identify the relevant dimension to maximize your rewards.'
           }
 
           text = <div><p>{text_unidimensional}</p> 
-                <p> Press spacebar to start block {this.state.participant_info.block_number - 1} </p> </div>
+                <p> Press spacebar to start block {this.state.participant_info.block_number - 1}. </p> </div>
         }
         else
-          {text = <div><p>End of block {this.state.participant_info.block_number - 1}</p> 
-                  <p> Press spacebar to continue</p></div>}
+          {text = <div><p>End of block {this.state.participant_info.block_number - 1}. </p> 
+                  <p> Press spacebar to continue.</p></div>}
         return (
       <div className="block">
         {text}           
