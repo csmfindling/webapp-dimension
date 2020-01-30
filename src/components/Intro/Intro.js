@@ -95,23 +95,23 @@ class Intro extends React.Component {
    let mytext
    if (this.state.count === 0) {
         mytext = <div className='text'> <p> In this experiment, your final payoff will depend on your choices. </p>
-                 <p> You can maximize your payoff by finding out which symbol feature makes you win most rewards </p>
-                 <p> For each choice you make, you will get a numerical reward which is on average 50 </p>
-                 <p> At the end of the experiment, we will calculate the sum of rewards you won and translate the score into bonus money </p> </div>;
+                 <p> You can maximize your payoff by finding out which symbol feature makes you win the highest rewards. </p>
+                 <p> For each choice you make, you will get a numerical reward which is on average 50. </p>
+                 <p> At the end of the experiment, we will calculate the sum of rewards you won and translate the score into bonus money. </p> </div>;
    } 
    else if (this.state.count === 1) {
-        mytext = <div className='text'> <p> 1 point = 2 pence </p>
-                 <p> Overall this experiment, you can win up to 384 points = 7.68 pounds </p></div>;
+        mytext = <div className='text'> <p> The higher the rewards you win, the more money you will get at the end of the experiment. </p>
+                 <p> Overall, you can win between up to £3 as an extra bonus. </p></div>;
    }
    else if (this.state.count === 2) {
-        mytext = <div className='text'> <p> At each trial, you must choose between two symbols. Each symbol will vary along three dimensions : shape, color and grating direction </p>
+        mytext = <div className='text'> <p> At each trial, you must choose between two symbols. Each symbol will vary along three dimensions : shape, color and grating direction. </p>
                 <p> Here are two example symbols: </p>                
                 <img className="introsymbol" src={require('../../images/symbols/symbol_shape_0_grate_2_color_1.png')} /> 
                 <img className="introsymbol" src={require('../../images/symbols/symbol_shape_1_grate_3_color_2.png')} /> 
                 <div className="translate"/>
                  <p> The crucial point is that only one of these three dimensions is relevant for maximizing rewards (the other two being uninformative distractors). </p>
                  <p>
-                  On each block, your goal is to maximize rewards by identifying the relevant dimension (the shape, color or grate) and, along the dimension, the higher rewarding feature (e.g., orange or green if the color is the relevant dimension) </p></div>; 
+                  On each block, your goal is to maximize rewards by identifying the relevant dimension (the shape, color or grating) and, along the dimension, the higher rewarding feature (e.g., orange or green if the color is the relevant dimension). </p></div>; 
    }
    else if (this.state.count === 3){
         mytext = <div className='text'> <p>  </p>
