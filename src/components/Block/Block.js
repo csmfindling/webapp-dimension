@@ -153,7 +153,8 @@ class Block extends React.Component {
     if ((this.state.participant_info.block_number === 0) && this.state.newblock_frame)
     {
       text = <div><p> For this first training block, we will inform you of the relevant dimension. It is the {this.state.block_info.correct_dimension}! </p> 
-                  <p> Press spacebar to start the first training block. </p> </div>
+                  <p> Press spacebar to start the first training block. </p> 
+                  </div>
         return (
       <div className="block">
         {text}           
@@ -193,8 +194,8 @@ class Block extends React.Component {
     }
     else if (this.state.participant_info.block_number === this.state.participant_info.blocks_ids.length)
     {
-      text = <div><p>Your performance score is {this.state.score} out of 100. Impressive! Thank you for your participation.</p>
-      <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick="location.href = 'https://app.prolific.co/submissions/complete?cc=30D8D1A9'"> Click here </Button></div>
+      text = <div><p>Your performance score is {this.state.score} out of 100! Thank you for your participation.</p>
+      <a target="_blank" href="https://app.prolific.co/submissions/complete?cc=30D8D1A9">Click Here</a></div>
         return (
       <div className="block">
         {text}           
