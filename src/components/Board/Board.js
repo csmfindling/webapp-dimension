@@ -82,7 +82,7 @@ class Board extends React.Component {
   }
   
   _handleCheatKey (event) {
-        if (event.keyCode == 67){ // c code => cheat to get information of current block
+/*        if (event.keyCode == 67){ // c code => cheat to get information of current block
           var  externalWindow = window.open('', 'Cheat Code', 'width=600,height=400,left=200,top=200');
           var arr = ['rewards_high', 'rewards_low', 'correct_side', 'correct_dimension', 'nb_trials_per_block']
           var html = ''
@@ -98,7 +98,7 @@ class Board extends React.Component {
           externalWindow.document.write(html);
         return externalWindow
           ;
-        }
+        }*/
      }
 
   handleClick(i) {
