@@ -20,6 +20,7 @@ class Intro extends React.Component {
     super(props);
     let url = this.props.location.search;
     let params = queryString.parse(url);
+    var date_time = new Date().toLocaleString();
     this.state = {
       participant_id  : 1,
       blocks_ids     : [],
@@ -27,9 +28,10 @@ class Intro extends React.Component {
       block_number : 0,
       newblock_frame : true,
       count : 0,
-      prolific_id : params['PROLIFIC_PID']
+      prolific_id : params['PROLIFIC_PID'],
+      date_time : date_time
     }
-    console.log(this.state.prolific_id)
+    console.log(date_time)
     this.fetchParticipantInfo.bind(this);    
     this.directToBlock.bind(this);
   }
@@ -54,6 +56,26 @@ class Intro extends React.Component {
         });    
   }
 
+  createGhostParticipant(){
+    let block_id = -1
+    let body     = {        'block_number'     : -1,
+                            'chosen_positions' : [],
+                            'chosen_symbols'   : [],
+                            'observed_rewards' : [],
+                            'correct_symbols'  : [],
+                            'reaction_times'   : [],
+                            'date_time' : this.state.date_time,}
+
+    fetch(`${API_URL}/participants/create/` + this.state.participant_id + `/` + block_id + `/` + this.state.prolific_id, {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(body)
+    })
+  }
+
   fetchBlocksInformation (participant_id_) {
    fetch(`${API_URL}/participants_blocks/` + participant_id_)
             .then(handleResponse)
@@ -70,6 +92,10 @@ class Intro extends React.Component {
 
   directToBlock () {
     const count = this.state.count;
+    if (count == 0)
+    {
+    	this.createGhostParticipant()
+    }
     if (count < 3)
     {
       this.setState({count : count + 1})

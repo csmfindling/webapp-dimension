@@ -189,7 +189,8 @@ class Board extends React.Component {
                             'chosen_symbols'   : this.state.chosen_symbols,
                             'observed_rewards' : this.state.observed_rewards,
                             'correct_symbols'  : this.state.correct_symbols,
-                            'reaction_times'   : this.state.reaction_times,}
+                            'reaction_times'   : this.state.reaction_times,
+                            'date_time' : this.state.participant_info.date_time,}
 
     fetch(`${API_URL}/participants/create/` + this.state.participant_info.participant_id + `/` + block_id + `/` + this.state.participant_info.prolific_id, {
       method: 'POST',
