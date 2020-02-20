@@ -92,10 +92,10 @@ class Intro extends React.Component {
 
   directToBlock () {
     const count = this.state.count;
-    if (count == 0)
+/*    if (count == 0)
     {
     	this.createGhostParticipant()
-    }
+    }*/
     if (count < 3)
     {
       this.setState({count : count + 1})
