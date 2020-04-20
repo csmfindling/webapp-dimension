@@ -4,9 +4,14 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import { Redirect } from "react-router-dom";
 import PropTypes from 'prop-types'
 import './index.css';
+
+import Consent from "./components/Consent/Consent";
 import Intro from "./components/Intro/Intro";
 import Board from "./components/Board/Board";
 import Block from "./components/Block/Block";
+import Survey from "./components/Survey/Survey";
+import QuizBlock from "./components/QuizBlock/QuizBlock";
+
 
 const RefreshRoute = ({ component: Component, isDataAvailable, ...rest }) => (    
   <Route
@@ -30,10 +35,15 @@ export default RefreshRoute;
 const App = () => {
     return (
         <BrowserRouter>
-            <Switch>                
-                <Route path="/" component={Intro} exact />
+            <Switch> 
+                <Route path="/" component={Consent} exact />
+                <RefreshRoute path="/Intro" component={Intro} exact />
                 <RefreshRoute path="/Board" component={Board} exact />
                 <RefreshRoute path="/Block" component={Block} exact />
+                <RefreshRoute path="/Survey" component={Survey} exact />
+                <RefreshRoute path="/QuizBlock" component={QuizBlock} exact />
+                
+                
             </Switch>
         </BrowserRouter>
     );

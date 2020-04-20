@@ -15,25 +15,50 @@ unidimensional blocks (the relevant dimension is given to the subject) or not. T
 state variables, 'block_number' which indicates which block the subject is currently at. This
 variable is initialized at 0.
 */
+
+const survey_list = [
+'demo', // ddemograhics
+'bis',  // impulsivity 
+'ius',  // uncertianty 
+'asrs', // adhd
+'pdi',  // delusions 
+'stai', // state anxiety 
+'ocir', // OCD
+'pvd',  // perceived vulnerability 
+'iq'    // IQ 
+] 
+
 class Intro extends React.Component {
   constructor(props){    
     super(props);
-    let url = this.props.location.search;
-    let params = queryString.parse(url);
+    // let url       = this.props.location.search;
+    // let params    = queryString.parse(url);
+    
     var date_time = new Date().toLocaleString();
-    this.state = {
-      participant_id  : 1,
-      blocks_ids     : [],
+    this.state    = {
+      participant_id        : 1,
+      blocks_ids            : [],
       unidimensional_blocks : [],
-      block_number : 0,
-      newblock_frame : true,
-      count : 0,
-      prolific_id : params['PROLIFIC_PID'],
-      date_time : date_time
+      block_number          : 0,
+      newblock_frame        : true,
+      count                 : 0,
+      prolific_id           : this.props.location.state.prolific_id,  // params['PROLIFIC_PID'],
+      study_id              : this.props.location.state.study_id,     // params['STUDY_ID'],
+      date_time             : date_time,
+      survey_list           : survey_list, 
+      block_number_survey   : 0, 
+      debut_survey          : true  
     }
-    console.log(date_time)
+    
+    console.log('Prolific ID:',this.state.prolific_id)
+    console.log('study ID:',this.state.study_id)
+    
     this.fetchParticipantInfo.bind(this);    
     this.directToBlock.bind(this);
+
+    // for DEBUG ONLY REMOVE AFTER: 
+    this.directToSurvey.bind(this); 
+
   }
 
   componentWillMount() {
@@ -46,6 +71,8 @@ class Intro extends React.Component {
           .then(handleResponse)
           .then((data) => {
             const participant_id_ = parseInt(data['new_participant_id'])
+
+            console.log('Participant_id:', participant_id_)
             this.setState({
                     participant_id : participant_id_,
                 });
@@ -109,6 +136,15 @@ class Intro extends React.Component {
   }
   }
 
+/* THis is for SURVEY DEBUG ONLY TO SKIP THE TASK */ 
+directToSurvey () {
+    
+    this.props.history.push({
+      pathname: `/Survey`,
+      state: {participant_info: this.state, newblock_frame:this.state.newblock_frame} // the 'newblock_frame' variable is redundant but this simplifies the code
+    })
+  }
+
   previousPage()
   {
     const count = this.state.count;
@@ -127,7 +163,9 @@ class Intro extends React.Component {
    } 
    else if (this.state.count === 1) {
         mytext = <div className='text'> <p> The higher the rewards you win, the more money you will get at the end of the experiment. </p>
-                 <p> Overall, you can win up to £3 as a bonus. </p></div>;
+                 <p> Overall, you can win up to <span className="bold">£3</span> as a bonus. </p>
+                 <p> <span className="bold">Note, that you will only receive the bonus if you complete both the game and the questionnaires.</span></p>
+                 </div>;
    }
    else if (this.state.count === 2) {
         mytext = <div className='text'> <p> At each trial, you must choose between two symbols. Each symbol will vary along three dimensions : shape, color and grating direction. </p>
@@ -145,8 +183,17 @@ class Intro extends React.Component {
    }
    // define buttons
    let multibutton
+   let multibutton2 // FOR DEBUG SURVEY ONLY 
+
    if (this.state.count === 0) {
-      multibutton = <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.directToBlock()}> Next </Button>
+       multibutton = <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.directToBlock()}> Next </Button>
+      // THIS IS FOR DEBUG ONLY TO BE REMOVED
+      if (this.state.debut_survey===true) {
+        multibutton2 = <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.directToSurvey()}> SURVEY DEBUG</Button>
+      }
+      else {
+        multibutton2 = '' 
+      } 
    }
    else {
       multibutton = <div className="center"> <div className="btn-group">
@@ -161,7 +208,10 @@ class Intro extends React.Component {
            <p className="title"> Instructions </p>
               {mytext}
           </div>
-            {multibutton}            
+            {multibutton}
+            <br></br> 
+            <br></br> 
+            {multibutton2}           
       </div>
   );
 }
