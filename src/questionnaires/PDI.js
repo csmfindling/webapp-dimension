@@ -51,7 +51,7 @@ var quizQuestions = [
 
 
 {
-      question: "Do you ever feel as if people are reading your mind?",
+      question: "Do you ever feel as if people are reading your mind? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -85,10 +85,8 @@ var quizQuestions = [
       ]
   },
 
-
-
   {
-      question: "Do you ever feel as if people are reading your mind?",
+      question: "Do you ever feel as if people are reading your mind? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -122,8 +120,9 @@ var quizQuestions = [
       ]
   },
 
+
   {
-      question: "Do you ever feel as if people are reading your mind?",
+      question: "Do you ever feel as if people are reading your mind ? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -182,7 +181,7 @@ var quizQuestions = [
 
 
 {
-      question: "Do you ever feel as if you could read other people's minds?",
+      question: "Do you ever feel as if you could read other people's minds? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -217,7 +216,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you could read other people's minds?",
+      question: "Do you ever feel as if you could read other people's minds? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -253,7 +252,7 @@ var quizQuestions = [
 
 
   {
-      question: "Do you ever feel as if you could read other people's minds?",
+      question: "Do you ever feel as if you could read other people's minds? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -311,7 +310,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if people seem to drop hints about you or say things with a double meaning?",
+      question: "Do you ever feel as if people seem to drop hints about you or say things with a double meaning? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -346,7 +345,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if people seem to drop hints about you or say things with a double meaning?",
+      question: "Do you ever feel as if people seem to drop hints about you or say things with a double meaning? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -381,7 +380,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if people seem to drop hints about you or say things with a double meaning?",
+      question: "Do you ever feel as if people seem to drop hints about you or say things with a double meaning? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -439,7 +438,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if things in magazines or on TV were written especially for you?",
+      question: "Do you ever feel as if things in magazines or on TV were written especially for you? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -474,7 +473,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if things in magazines or on TV were written especially for you?",
+      question: "Do you ever feel as if things in magazines or on TV were written especially for you? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -509,7 +508,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if things in magazines or on TV were written especially for you?",
+      question: "Do you ever feel as if things in magazines or on TV were written especially for you? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -568,7 +567,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if some people are not what they seem to be?",
+      question: "Do you ever feel as if some people are not what they seem to be? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -603,7 +602,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if some people are not what they seem to be?",
+      question: "Do you ever feel as if some people are not what they seem to be? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -638,7 +637,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if some people are not what they seem to be?",
+      question: "Do you ever feel as if some people are not what they seem to be? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -696,7 +695,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are being prosecuted in some way?",
+      question: "Do you ever feel as if you are being prosecuted in some way? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -731,7 +730,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are being prosecuted in some way?",
+      question: "Do you ever feel as if you are being prosecuted in some way? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -766,7 +765,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are being prosecuted in some way?",
+      question: "Do you ever feel as if you are being prosecuted in some way? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -825,7 +824,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if there is a conspiracy against you?",
+      question: "Do you ever feel as if there is a conspiracy against you? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -860,7 +859,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if there is a conspiracy against you?",
+      question: "Do you ever feel as if there is a conspiracy against you? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -895,7 +894,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if there is a conspiracy against you?",
+      question: "Do you ever feel as if there is a conspiracy against you? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -953,7 +952,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are, or destined to be someone very important?",
+      question: "Do you ever feel as if you are, or destined to be someone very important? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -988,7 +987,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are, or destined to be someone very important?",
+      question: "Do you ever feel as if you are, or destined to be someone very important? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -1023,7 +1022,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are, or destined to be someone very important?",
+      question: "Do you ever feel as if you are, or destined to be someone very important? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -1081,7 +1080,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are a very special or unusual person?",
+      question: "Do you ever feel that you are a very special or unusual person? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -1116,7 +1115,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are a very special or unusual person?",
+      question: "Do you ever feel that you are a very special or unusual person? How distressing this belief is? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -1151,7 +1150,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are a very special or unusual person?",
+      question: "Do you ever feel that you are a very special or unusual person? How distressing this belief is? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -1209,7 +1208,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are especially close to God?",
+      question: "Do you ever feel that you are especially close to God? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -1244,7 +1243,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are especially close to God?",
+      question: "Do you ever feel that you are especially close to God? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -1279,7 +1278,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are especially close to God?",
+      question: "Do you ever feel that you are especially close to God? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -1338,7 +1337,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever think people can communicate telepathically?",
+      question: "Do you ever think people can communicate telepathically? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -1373,7 +1372,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever think people can communicate telepathically?",
+      question: "Do you ever think people can communicate telepathically? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -1408,7 +1407,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever think people can communicate telepathically?",
+      question: "Do you ever think people can communicate telepathically? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -1468,7 +1467,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if electrical devices such as computers can influence the way you think?",
+      question: "Do you ever feel as if electrical devices such as computers can influence the way you think? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -1503,7 +1502,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if electrical devices such as computers can influence the way you think?",
+      question: "Do you ever feel as if electrical devices such as computers can influence the way you think? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -1538,7 +1537,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if electrical devices such as computers can influence the way you think?",
+      question: "Do you ever feel as if electrical devices such as computers can influence the way you think? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -1597,7 +1596,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you have been chosen by God in some way?",
+      question: "Do you ever feel as if you have been chosen by God in some way? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -1632,7 +1631,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you have been chosen by God in some way?",
+      question: "Do you ever feel as if you have been chosen by God in some way? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -1667,7 +1666,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you have been chosen by God in some way?",
+      question: "Do you ever feel as if you have been chosen by God in some way? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -1723,9 +1722,8 @@ var quizQuestions = [
         {max: ""}
       ]
   },
-
   {
-      question: "Do you beleive in the power of witchcraft, voodoo or the occult?",
+      question: "Do you beleive in the power of witchcraft, voodoo or the occult? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -1760,7 +1758,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you beleive in the power of witchcraft, voodoo or the occult?",
+      question: "Do you beleive in the power of witchcraft, voodoo or the occult? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -1795,7 +1793,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you beleive in the power of witchcraft, voodoo or the occult?",
+      question: "Do you beleive in the power of witchcraft, voodoo or the occult? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -1853,7 +1851,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Are you often worried that your partner may be unfaithful?",
+      question: "Are you often worried that your partner may be unfaithful? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -1888,7 +1886,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Are you often worried that your partner may be unfaithful?",
+      question: "Are you often worried that your partner may be unfaithful? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -1923,7 +1921,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Are you often worried that your partner may be unfaithful?",
+      question: "Are you often worried that your partner may be unfaithful? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -1981,7 +1979,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you have sinned more than the average person?",
+      question: "Do you ever feel that you have sinned more than the average person? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -2016,7 +2014,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you have sinned more than the average person?",
+      question: "Do you ever feel that you have sinned more than the average person? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -2051,7 +2049,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you have sinned more than the average person?",
+      question: "Do you ever feel that you have sinned more than the average person? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -2109,7 +2107,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that people look at you oddly because of your appearance?",
+      question: "Do you ever feel that people look at you oddly because of your appearance? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -2144,7 +2142,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that people look at you oddly because of your appearance?",
+      question: "Do you ever feel that people look at you oddly because of your appearance? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -2179,7 +2177,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that people look at you oddly because of your appearance?",
+      question: "Do you ever feel that people look at you oddly because of your appearance? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -2237,7 +2235,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you had no thoughts in your head at all?",
+      question: "Do you ever feel as if you had no thoughts in your head at all? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -2272,7 +2270,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you had no thoughts in your head at all?",
+      question: "Do you ever feel as if you had no thoughts in your head at all? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -2307,7 +2305,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you had no thoughts in your head at all?",
+      question: "Do you ever feel as if you had no thoughts in your head at all? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -2366,7 +2364,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if the world is about to end?",
+      question: "Do you ever feel as if the world is about to end? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -2401,7 +2399,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if the world is about to end?",
+      question: "Do you ever feel as if the world is about to end? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -2436,7 +2434,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if the world is about to end?",
+      question: "Do you ever feel as if the world is about to end? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -2495,7 +2493,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do your thoughts ever feel aliento you in some way?",
+      question: "Do your thoughts ever feel aliento you in some way? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -2530,7 +2528,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do your thoughts ever feel aliento you in some way?",
+      question: "Do your thoughts ever feel aliento you in some way? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -2565,7 +2563,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do your thoughts ever feel aliento you in some way?",
+      question: "Do your thoughts ever feel aliento you in some way? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -2624,7 +2622,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Have your thoughts ever been so vivid that you were worried other people would hear them?",
+      question: "Have your thoughts ever been so vivid that you were worried other people would hear them? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -2659,7 +2657,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Have your thoughts ever been so vivid that you were worried other people would hear them?",
+      question: "Have your thoughts ever been so vivid that you were worried other people would hear them? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -2694,7 +2692,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Have your thoughts ever been so vivid that you were worried other people would hear them?",
+      question: "Have your thoughts ever been so vivid that you were worried other people would hear them? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -2753,7 +2751,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if your own thoughts were beeing echoed back to you?",
+      question: "Do you ever feel as if your own thoughts were beeing echoed back to you? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -2788,7 +2786,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if your own thoughts were beeing echoed back to you?",
+      question: "Do you ever feel as if your own thoughts were beeing echoed back to you? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -2823,7 +2821,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if your own thoughts were beeing echoed back to you?",
+      question: "Do you ever feel as if your own thoughts were beeing echoed back to you? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
@@ -2882,7 +2880,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are a robot or zombie without a will of your own?",
+      question: "Do you ever feel as if you are a robot or zombie without a will of your own? How distressing this belief is?",
       answers: [
           {
               type: "pdi-1",
@@ -2917,7 +2915,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are a robot or zombie without a will of your own?",
+      question: "Do you ever feel as if you are a robot or zombie without a will of your own? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
@@ -2952,7 +2950,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are a robot or zombie without a will of your own?",
+      question: "Do you ever feel as if you are a robot or zombie without a will of your own? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
