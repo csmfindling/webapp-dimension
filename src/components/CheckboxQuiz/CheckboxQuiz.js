@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransitionGroup } from 'react-transition-group';
 import Question from '../QuizQuestion/Question';
-import QuestionCount from '../QuizQuestion/QuestionCount';
-import Checkbox from '../Checkbox/Checkbox'; 
+import Checkbox from '../Checkbox/Checkbox';
+import ProgressBar from '../QuizQuestion/ProgressBar';
+ 
 
 
 class CheckboxQuiz extends React.Component {
@@ -134,9 +135,10 @@ render() {
       transitionAppearTimeout={500}
     >
       <div key={this.props.questionId}>
-        <QuestionCount counter={this.props.questionCount} total={this.props.questionTotal} />
+      <p><span className='bold'>Part {this.props.survey_part} of {this.props.surveyTotal}</span></p>
+        <ProgressBar counter={this.props.questionCount} total={this.props.questionTotal}/>
+        <br></br>
         <Question content={this.props.question}/>
-        
         <div className="answerOptions">
           {this.props.answerOptions.map(this.createCheckBox)}
         </div>
@@ -166,6 +168,9 @@ CheckboxQuiz.propTypes = {
   questionCount: PropTypes.number.isRequired,
   questionTotal: PropTypes.number.isRequired,
   onAnswerSelected: PropTypes.func.isRequired,
+  survey_part: PropTypes.string.isRequired,
+  surveyTotal: PropTypes.string.isRequired
+
 };
 
 export default CheckboxQuiz;

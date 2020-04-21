@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { CSSTransitionGroup } from 'react-transition-group';
 import Question from '../QuizQuestion/Question';
 import { Button } from 'react-bootstrap';
+import ProgressBar from '../QuizQuestion/ProgressBar';
+
 
 
 function ButtonQuiz(props) {
@@ -18,6 +20,7 @@ function ButtonQuiz(props) {
       transitionAppearTimeout={500}
     >
       <div key={props.questionCount}>
+      <p><span className='bold'>Part {props.survey_part} of {props.surveyTotal}</span></p>
         <Question content={props.question} />
       </div>
       <center>
@@ -32,7 +35,10 @@ ButtonQuiz.propTypes = {
   questionId: PropTypes.number.isRequired,
   questionCount: PropTypes.number.isRequired,
   questionTotal: PropTypes.number.isRequired,
-  onAnswerSelected: PropTypes.func.isRequired
+  onAnswerSelected: PropTypes.func.isRequired,
+  survey_part: PropTypes.string.isRequired,
+  surveyTotal: PropTypes.string.isRequired
+
 };
 
 export default ButtonQuiz;

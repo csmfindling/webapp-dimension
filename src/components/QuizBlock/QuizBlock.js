@@ -19,7 +19,7 @@ class QuizBlock extends React.Component {
 
     var date_time = new Date().toLocaleString();
     
-    console.log('QuizBlock Props PINFO:',this.props.location.state.participant_info)
+    // console.log('QuizBlock Props PINFO:',this.props.location.state.participant_info)
   
     this.state = {
       counter: 0,
@@ -172,7 +172,7 @@ NoShuffleArray(array) {
 
                           }
 
-  console.log(body)
+  // console.log(body)
   fetch(`${API_URL}/participants_question_data/create/` + this.state.participant_info.participant_id + `/` + block_id + `/` + this.state.participant_info.prolific_id, {
        method: 'POST',
        headers: {
@@ -182,7 +182,7 @@ NoShuffleArray(array) {
        body: JSON.stringify(body)
      })
 
-  console.log('PINFO quizBlock', this.state.participant_info)
+  // console.log('PINFO quizBlock', this.state.participant_info)
   this.props.history.push({
       pathname: `/Survey`,
       state: {participant_info:this.state.participant_info,newblock_frame: false, finished: true}
@@ -211,7 +211,9 @@ NoShuffleArray(array) {
           onAnswerSelected={this.handleAnswerSelected}
           image           ={this.state.image}
           image_a         ={this.state.image_a}
-          
+          // Add line for the part of the study: NEW 
+          survey_part     ={this.state.participant_info.block_number_survey+1}
+          surveyTotal     ={this.state.participant_info.TotalBlock+1}
         />
       );
     } 
@@ -229,6 +231,9 @@ NoShuffleArray(array) {
           questionTotal   ={this.state.quizQuestionsBlock.length}
           onAnswerSelected={this.handleAnswerSelected}
           constraint      ={this.state.constraint}
+          survey_part     ={this.state.participant_info.block_number_survey+1}
+          surveyTotal     ={this.state.participant_info.TotalBlock+1}
+      
         />
       );
   }
@@ -246,6 +251,9 @@ NoShuffleArray(array) {
           questionTotal   ={this.state.quizQuestionsBlock.length}
           onAnswerSelected={this.handleAnswerSelected}
           constraint      ={this.state.constraint}
+          survey_part     ={this.state.participant_info.block_number_survey+1}
+          surveyTotal     ={this.state.participant_info.TotalBlock+1}
+      
       />
     );
   }
@@ -262,6 +270,9 @@ NoShuffleArray(array) {
           questionTotal   ={this.state.quizQuestionsBlock.length}
           onAnswerSelected={this.handleAnswerSelected}
           constraint      ={this.state.constraint}
+          survey_part     ={this.state.participant_info.block_number_survey+1}
+          surveyTotal     ={this.state.participant_info.TotalBlock+1}
+      
       />
     );
   }
@@ -275,6 +286,9 @@ NoShuffleArray(array) {
           question        ={this.state.question}
           questionTotal   ={this.state.quizQuestionsBlock.length}
           onAnswerSelected={this.handleAnswerSelected}
+          survey_part     ={this.state.participant_info.block_number_survey+1}
+          surveyTotal     ={this.state.participant_info.TotalBlock+1}
+      
       />
     );
   }
@@ -290,6 +304,9 @@ NoShuffleArray(array) {
           question        ={this.state.question}
           questionTotal   ={this.state.quizQuestionsBlock.length}
           onAnswerSelected={this.handleAnswerSelected}
+          survey_part     ={this.state.participant_info.block_number_survey+1}
+          surveyTotal     ={this.state.participant_info.TotalBlock+1}
+      
       />
     );
   }

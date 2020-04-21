@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {withRouter} from 'react-router-dom';
-
 import { CSSTransitionGroup } from 'react-transition-group';
 import Question from '../QuizQuestion/Question';
-import QuestionCount from '../QuizQuestion/QuestionCount';
+import ProgressBar from '../QuizQuestion/ProgressBar';
 import AnswerOption from '../QuizQuestion/AnswerOption';
 
 
@@ -129,7 +128,9 @@ render() {
       transitionAppearTimeout={500}
     >
       <div key={this.props.questionId}>
-        <QuestionCount counter={this.props.questionCount} total={this.props.questionTotal} />
+      <p><span className='bold'>Part {this.props.survey_part} of {this.props.surveyTotal}</span></p>
+        <ProgressBar counter={this.props.questionCount} total={this.props.questionTotal}/>
+        <br></br>
         <Question content={this.props.question} />
         <div className="col-md-6 no-padding">
         <input value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" className="form-control" placeholder="" type="number" pattern="[0-9]*" inputMode="numeric" required />
@@ -162,7 +163,10 @@ ReportNA.propTypes = {
   questionTotal: PropTypes.number.isRequired,
   onAnswerSelected: PropTypes.func.isRequired,
   constraint: PropTypes.array.isRequired,
-  participant_info:PropTypes.object.isRequired
+  participant_info:PropTypes.object.isRequired,
+  survey_part: PropTypes.string.isRequired,
+  surveyTotal: PropTypes.string.isRequired
+
 };
 
 

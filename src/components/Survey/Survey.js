@@ -240,13 +240,14 @@ render()
 
     else
     {
-          text = '... CONTINUE ...'
+          text = '... CONTINUE ...' 
         return (
       <div>
       <center>
       <div className="SurveyIntroText">
         {text}           
       </div>
+      <br></br>
       <center>
             <Button className="buttonInstructionStart" onClick={()=> this.state.finished ? this.redirectToEnd() : this.redirectToQuiz()}>
             &#8594;

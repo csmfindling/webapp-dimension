@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {withRouter} from 'react-router-dom';
 import { CSSTransitionGroup } from 'react-transition-group';
 import Question from '../QuizQuestion/Question';
-import QuestionCount from '../QuizQuestion/QuestionCount';
+import ProgressBar from '../QuizQuestion/ProgressBar';
 
 
 class FreeReport extends React.Component {
@@ -126,7 +126,9 @@ render() {
       transitionAppearTimeout={500}
     >
       <div key={this.props.questionId}>
-        <QuestionCount counter={this.props.questionCount} total={this.props.questionTotal} />
+      <p><span className='bold'>Part {this.props.survey_part} of {this.props.surveyTotal}</span></p>
+        <ProgressBar counter={this.props.questionCount} total={this.props.questionTotal}/>
+        <br></br>
         <Question content={this.props.question} />
         <div className="col-md-20 pad-400">
         <form id="create-course-form">
@@ -153,6 +155,10 @@ FreeReport.propTypes = {
   questionTotal: PropTypes.number.isRequired,
   onAnswerSelected: PropTypes.func.isRequired,
   constraint: PropTypes.array.isRequired,
+  survey_part: PropTypes.string.isRequired,
+  surveyTotal: PropTypes.string.isRequired
+
+
 };
 
           

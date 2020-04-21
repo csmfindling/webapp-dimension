@@ -40,10 +40,11 @@ function Quiz(props) {
       transitionAppearTimeout={500}
       >
       <div key={props.questionCount}>
+      <center>
+      <p><span className='bold'>Part {props.survey_part} of {props.surveyTotal}</span></p>
         <ProgressBar counter={props.questionCount} total={props.questionTotal}/>
         <br></br>
         <Question content={props.question} />
-        <center>
         <div className="symbolframe">    
           <img className="quizImage" src={props.image} alt='quizImage'/> 
         </div>
@@ -73,6 +74,7 @@ function Quiz(props) {
       >
       <div key={props.questionCount}>
         <center>
+        <p><span className='bold'>Part {props.survey_part} of {props.surveyTotal}</span></p>
         <ProgressBar counter={props.questionCount} total={props.questionTotal}/>
         <br></br>
         <Question content={props.question} />
@@ -105,6 +107,7 @@ else if (props.image===null) {
       >
       <div key={props.questionCount}>
         <center>
+        <p><span className='bold'>Part {props.survey_part} of {props.surveyTotal}</span></p>
         <ProgressBar counter={props.questionCount} total={props.questionTotal}/>
         <br></br>
         <Question content={props.question} />
@@ -133,6 +136,7 @@ else if (props.image===null) {
       >
       <div key={props.questionCount}>
       <center>
+      <p><span className='bold'>Part {props.survey_part} of {props.surveyTotal}</span></p>
         <ProgressBar counter={props.questionCount} total={props.questionTotal}/>
         <br></br>
         <Question content={props.question}/>
@@ -156,6 +160,8 @@ Quiz.propTypes = {
   questionCount: PropTypes.number.isRequired,
   questionTotal: PropTypes.number.isRequired,
   onAnswerSelected: PropTypes.func.isRequired,
+  survey_part: PropTypes.string.isRequired,
+  surveyTotal: PropTypes.string.isRequired
 };
 
 export default Quiz;
