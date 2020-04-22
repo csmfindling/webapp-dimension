@@ -168,7 +168,7 @@ NoShuffleArray(array) {
                             'survey_completed': completed, 
                             'date_time_survey_start'  : this.state.datetime_start,
                             'date_time_survey_end'    : date_time_now,
-                            'date_time'       : this.stae.participant_info.date_time
+                            'date_time'       : this.state.participant_info.date_time
                             
                           }
 
