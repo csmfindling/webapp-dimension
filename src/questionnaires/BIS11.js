@@ -519,7 +519,7 @@ var quizQuestions = [
   },
 
   {
-      question: "I act 'on impulse",
+      question: "I act 'on impulse'",
       answers: [
           {
               type: "bis-1",

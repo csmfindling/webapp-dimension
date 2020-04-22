@@ -155,9 +155,8 @@ FreeReport.propTypes = {
   questionTotal: PropTypes.number.isRequired,
   onAnswerSelected: PropTypes.func.isRequired,
   constraint: PropTypes.array.isRequired,
-  survey_part: PropTypes.string.isRequired,
-  surveyTotal: PropTypes.string.isRequired
-
+  survey_part: PropTypes.number.isRequired,
+  surveyTotal: PropTypes.number.isRequired
 
 };
 

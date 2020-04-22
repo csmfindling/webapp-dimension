@@ -168,8 +168,8 @@ CheckboxQuiz.propTypes = {
   questionCount: PropTypes.number.isRequired,
   questionTotal: PropTypes.number.isRequired,
   onAnswerSelected: PropTypes.func.isRequired,
-  survey_part: PropTypes.string.isRequired,
-  surveyTotal: PropTypes.string.isRequired
+  survey_part: PropTypes.number.isRequired,
+  surveyTotal: PropTypes.number.isRequired
 
 };
 

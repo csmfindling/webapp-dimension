@@ -164,9 +164,8 @@ ReportNA.propTypes = {
   onAnswerSelected: PropTypes.func.isRequired,
   constraint: PropTypes.array.isRequired,
   participant_info:PropTypes.object.isRequired,
-  survey_part: PropTypes.string.isRequired,
-  surveyTotal: PropTypes.string.isRequired
-
+  survey_part: PropTypes.number.isRequired,
+  surveyTotal: PropTypes.number.isRequired
 };
 
 
