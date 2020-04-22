@@ -17,7 +17,8 @@ class QuizBlock extends React.Component {
     
     // console.log(quizQuestionsBlock)
 
-    var date_time = new Date().toLocaleString();
+    var date_time_now = new Date().toLocaleString();
+    
     
     // console.log('QuizBlock Props PINFO:',this.props.location.state.participant_info)
   
@@ -36,7 +37,7 @@ class QuizBlock extends React.Component {
       participant_info: this.props.location.state.participant_info,
       image: '',    // image question
       image_a: '', // image - answer if available
-      datetime_start: date_time,
+      date_time_start: date_time_now,
       // This is to be recorded and POSTED to the DB
       answered_questionsId      : [],
       answered_questionsContent : [],
@@ -165,11 +166,10 @@ NoShuffleArray(array) {
                             'block_name'      : this.props.location.state.block_info.surveytag, 
                             'question_ids'    : this.state.answered_questionsId, 
                             'answers'         : this.state.answered_questionsContent,
-                            'survey_completed': completed, 
-                            'date_time_survey_start'  : this.state.datetime_start,
+                            'survey_completed': completed,
+                            'date_time_survey_start'  : this.state.date_time_start,
                             'date_time_survey_end'    : date_time_now,
-                            'date_time'       : this.state.participant_info.date_time
-                            
+                            'date_time'       : this.props.location.state.participant_info.date_time
                           }
 
   // console.log(body)

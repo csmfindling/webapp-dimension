@@ -47,7 +47,7 @@ class Intro extends React.Component {
       date_time             : date_time,
       survey_list           : survey_list, 
       block_number_survey   : 0, 
-      debut_survey          : true  
+      // debut_survey          : true  
     }
     
     console.log('Prolific ID:',this.state.prolific_id)
@@ -57,7 +57,7 @@ class Intro extends React.Component {
     this.directToBlock.bind(this);
 
     // for DEBUG ONLY REMOVE AFTER: 
-    this.directToSurvey.bind(this); 
+    // this.directToSurvey.bind(this); 
 
   }
 
@@ -137,13 +137,13 @@ class Intro extends React.Component {
   }
 
 /* THis is for SURVEY DEBUG ONLY TO SKIP THE TASK */ 
-directToSurvey () {
+// directToSurvey () {
     
-    this.props.history.push({
-      pathname: `/Survey`,
-      state: {participant_info: this.state, newblock_frame:this.state.newblock_frame} // the 'newblock_frame' variable is redundant but this simplifies the code
-    })
-  }
+//     this.props.history.push({
+//       pathname: `/Survey`,
+//       state: {participant_info: this.state, newblock_frame:this.state.newblock_frame} // the 'newblock_frame' variable is redundant but this simplifies the code
+//     })
+//   }
 
   previousPage()
   {
@@ -188,12 +188,12 @@ directToSurvey () {
    if (this.state.count === 0) {
        multibutton = <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.directToBlock()}> Next </Button>
       // THIS IS FOR DEBUG ONLY TO BE REMOVED
-      if (this.state.debut_survey===true) {
-        multibutton2 = <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.directToSurvey()}> SURVEY DEBUG</Button>
-      }
-      else {
-        multibutton2 = '' 
-      } 
+      // if (this.state.debut_survey===true) {
+      //   multibutton2 = <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.directToSurvey()}> SURVEY DEBUG</Button>
+      // }
+      // else {
+      //   multibutton2 = '' 
+      // } 
    }
    else {
       multibutton = <div className="center"> <div className="btn-group">
@@ -209,9 +209,6 @@ directToSurvey () {
               {mytext}
           </div>
             {multibutton}
-            <br></br> 
-            <br></br> 
-            {multibutton2}           
       </div>
   );
 }
