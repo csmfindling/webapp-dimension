@@ -65,9 +65,12 @@ class Survey extends React.Component {
       participant_id        : this.props.location.state.participant_info.participant_id, 
       survey_list           : this.props.location.state.participant_info.survey_list, 
       TotalBlock            : n,
-      block_number_survey   : this.props.location.state.participant_info.block_number_survey 
+      block_number_survey   : this.props.location.state.participant_info.block_number_survey, 
+      date_time             : this.props.location.state.participant_info.date_time
     }
 
+    console.log(this.props.location.state.participant_info.date_time)
+    
     this.state = {
       participant_info : participant_info,
       block_info       : block_info,

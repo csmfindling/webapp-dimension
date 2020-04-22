@@ -150,7 +150,7 @@ NoShuffleArray(array) {
   {
     let block_id = this.state.participant_info.block_number_survey+1
     // console.log('Block_number QuizBlock:', this.state.participant_info.block_number)
-    var date_time = new Date().toLocaleString();
+    var date_time_now = new Date().toLocaleString();
     
     if (this.state.participant_info.block_number_survey < this.state.participant_info.TotalBlock) {
       var completed = 'no'}
@@ -166,10 +166,10 @@ NoShuffleArray(array) {
                             'question_ids'    : this.state.answered_questionsId, 
                             'answers'         : this.state.answered_questionsContent,
                             'survey_completed': completed, 
-                            'datetime_start'  : this.state.datetime_start,
-                            'datetime_end'    : date_time,
+                            'date_time_survey_start'  : this.state.datetime_start,
+                            'date_time_survey_end'    : date_time_now,
+                            'date_time'       : this.stae.participant_info.date_time
                             
-
                           }
 
   // console.log(body)
