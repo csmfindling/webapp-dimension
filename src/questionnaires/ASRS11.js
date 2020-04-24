@@ -128,7 +128,7 @@ var quizQuestions = [
   },
 
   {
-      question: "How often do you have a task that requires a lot fo thought, how often do you avoid or delay getting started?",
+      question: "When you have a task that requires a lot of thought, how often do you avoid or delay getting started?",
       answers: [
           {
               type: "asrs-1",

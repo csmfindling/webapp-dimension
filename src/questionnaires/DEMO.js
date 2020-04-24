@@ -68,7 +68,7 @@ var quizQuestions = [
         content: "Some high school or less"},
       ],
       qtype: 'quiz',
-      questionId: 5,
+      questionId: 3,
       surveytag: 'demo',
       title: 'Introduction', 
       constraint: [
@@ -82,11 +82,11 @@ var quizQuestions = [
       question: "Have you ever been diagnosed with a psychiatric disorder?",
       answers: [
           {
-            type: "disorder",
+            type: "answer-1",
             content: "Yes"
           },
           {
-            type: "disorder",
+            type: "answer-2",
             content: "No"
           },
           {
@@ -97,7 +97,7 @@ var quizQuestions = [
           
       ],
       qtype: "quiz",
-      questionId: 6,
+      questionId: 4,
       surveytag: 'demo', 
       title: 'Introduction',
       constraint: [
@@ -111,16 +111,16 @@ var quizQuestions = [
       question: "Is English your native language?",
       answers: [
           {
-            type: "disorder",
+            type: "answer-1",
             content: "Yes"
           },
           {
-            type: "disorder",
+            type: "answer-2",
             content: "No"
           },
       ],
       qtype: "quiz",
-      questionId: 7,
+      questionId: 5,
       surveytag: 'demo', 
       title: 'Introduction',
       constraint: [

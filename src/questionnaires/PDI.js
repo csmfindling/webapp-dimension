@@ -51,27 +51,27 @@ var quizQuestions = [
 
 
 {
-      question: "Do you ever feel as if people are reading your mind? How distressing this belief is?",
+      question: "Do you ever feel as if people are reading your mind? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
+              content: "5 - Very distressing"
           },
       ],
       questionId: 2,
@@ -90,23 +90,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 3,
@@ -126,23 +126,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 4,
@@ -157,7 +157,7 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you could read other people's mind?",
+      question: "Do you ever feel as if you could read other people's minds?",
       answers: [
           {
               type: "pdi-1",
@@ -181,28 +181,27 @@ var quizQuestions = [
 
 
 {
-      question: "Do you ever feel as if you could read other people's minds? How distressing this belief is?",
+      question: "Do you ever feel as if you could read other people's minds? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 6,
       surveytag: 'pdi',
@@ -220,25 +219,26 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
+      
       questionId: 7,
       condition: 'yes',
       surveytag: 'pdi',
@@ -256,23 +256,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 8,
@@ -310,28 +310,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if people seem to drop hints about you or say things with a double meaning? How distressing this belief is?",
+      question: "Do you ever feel as if people seem to drop hints about you or say things with a double meaning? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 10,
       surveytag: 'pdi',
@@ -349,23 +348,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 11,
@@ -384,25 +383,25 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
-      ],
+        ],  
       questionId: 12,
       surveytag: 'pdi',
       condition: 'yes',
@@ -411,7 +410,7 @@ var quizQuestions = [
       constraint: [
         {min: ""},
         {max: ""}
-      ]
+      ] 
   },
 
   {
@@ -438,28 +437,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if things in magazines or on TV were written especially for you? How distressing this belief is?",
+      question: "Do you ever feel as if things in magazines or on TV were written especially for you? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 14,
       surveytag: 'pdi',
@@ -475,25 +473,25 @@ var quizQuestions = [
   {
       question: "Do you ever feel as if things in magazines or on TV were written especially for you? How often do you think about it?",
       answers: [
-          {
+         {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 15,
@@ -512,23 +510,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 16,
@@ -567,28 +565,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if some people are not what they seem to be? How distressing this belief is?",
+      question: "Do you ever feel as if some people are not what they seem to be? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 18,
       surveytag: 'pdi',
@@ -606,23 +603,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 19,
@@ -641,25 +638,26 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
-          },
-      ],
+              content: "5 - Believe it is absolutely true"
+          }, 
+          ], 
+
       questionId: 20,
       surveytag: 'pdi',
       condition: 'yes',
@@ -695,28 +693,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are being prosecuted in some way? How distressing this belief is?",
+      question: "Do you ever feel as if you are being prosecuted in some way? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 22,
       surveytag: 'pdi',
@@ -734,23 +731,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 23,
@@ -769,23 +766,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 24,
@@ -824,28 +821,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if there is a conspiracy against you? How distressing this belief is?",
+      question: "Do you ever feel as if there is a conspiracy against you? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 26,
       surveytag: 'pdi',
@@ -863,23 +859,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 27,
@@ -898,23 +894,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 28,
@@ -952,28 +948,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are, or destined to be someone very important? How distressing this belief is?",
+      question: "Do you ever feel as if you are, or destined to be someone very important? How distressing is this belief?",
       answers: [
-          {
+         {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 30,
       surveytag: 'pdi',
@@ -991,23 +986,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 31,
@@ -1026,23 +1021,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 32,
@@ -1080,28 +1075,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are a very special or unusual person? How distressing this belief is?",
+      question: "Do you ever feel that you are a very special or unusual person? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 34,
       surveytag: 'pdi',
@@ -1115,27 +1109,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are a very special or unusual person? How distressing this belief is? How often do you think about it?",
+      question: "Do you ever feel that you are a very special or unusual person? How often do you think about it?",
       answers: [
-          {
+         {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 35,
@@ -1150,27 +1144,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are a very special or unusual person? How distressing this belief is? How much do you believe it is true?",
+      question: "Do you ever feel that you are a very special or unusual person? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 36,
@@ -1208,28 +1202,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you are especially close to God? How distressing this belief is?",
+      question: "Do you ever feel that you are especially close to God? How distressing is this belief?",
       answers: [
-          {
+         {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 38,
       surveytag: 'pdi',
@@ -1245,25 +1238,25 @@ var quizQuestions = [
   {
       question: "Do you ever feel that you are especially close to God? How often do you think about it?",
       answers: [
-          {
+         {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 39,
@@ -1282,23 +1275,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 40,
@@ -1337,28 +1330,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever think people can communicate telepathically? How distressing this belief is?",
+      question: "Do you ever think people can communicate telepathically? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 42,
       surveytag: 'pdi',
@@ -1376,23 +1368,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 43,
@@ -1411,23 +1403,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 44,
@@ -1467,28 +1459,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if electrical devices such as computers can influence the way you think? How distressing this belief is?",
+      question: "Do you ever feel as if electrical devices such as computers can influence the way you think? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 46,
       surveytag: 'pdi',
@@ -1506,23 +1497,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 47,
@@ -1541,23 +1532,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 48,
@@ -1596,28 +1587,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you have been chosen by God in some way? How distressing this belief is?",
+      question: "Do you ever feel as if you have been chosen by God in some way? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 50,
       surveytag: 'pdi',
@@ -1635,23 +1625,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 51,
@@ -1670,23 +1660,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 52,
@@ -1723,28 +1713,27 @@ var quizQuestions = [
       ]
   },
   {
-      question: "Do you beleive in the power of witchcraft, voodoo or the occult? How distressing this belief is?",
+      question: "Do you beleive in the power of witchcraft, voodoo or the occult? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 54,
       surveytag: 'pdi',
@@ -1762,23 +1751,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 55,
@@ -1797,23 +1786,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 56,
@@ -1851,28 +1840,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Are you often worried that your partner may be unfaithful? How distressing this belief is?",
+      question: "Are you often worried that your partner may be unfaithful? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 58,
       surveytag: 'pdi',
@@ -1890,23 +1878,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 59,
@@ -1925,23 +1913,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 60,
@@ -1979,28 +1967,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that you have sinned more than the average person? How distressing this belief is?",
+      question: "Do you ever feel that you have sinned more than the average person? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 62,
       surveytag: 'pdi',
@@ -2018,23 +2005,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 63,
@@ -2053,23 +2040,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 64,
@@ -2107,28 +2094,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel that people look at you oddly because of your appearance? How distressing this belief is?",
+      question: "Do you ever feel that people look at you oddly because of your appearance? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 66,
       surveytag: 'pdi',
@@ -2146,23 +2132,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 67,
@@ -2181,23 +2167,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 68,
@@ -2235,28 +2221,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you had no thoughts in your head at all? How distressing this belief is?",
+      question: "Do you ever feel as if you had no thoughts in your head at all? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 70,
       surveytag: 'pdi',
@@ -2272,25 +2257,25 @@ var quizQuestions = [
   {
       question: "Do you ever feel as if you had no thoughts in your head at all? How often do you think about it?",
       answers: [
-          {
+         {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 71,
@@ -2309,23 +2294,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 72,
@@ -2364,28 +2349,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if the world is about to end? How distressing this belief is?",
+      question: "Do you ever feel as if the world is about to end? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 74,
       surveytag: 'pdi',
@@ -2403,23 +2387,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 75,
@@ -2438,23 +2422,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 76,
@@ -2470,7 +2454,7 @@ var quizQuestions = [
 
 
 {
-      question: "Do your thoughts ever feel aliento you in some way?", 
+      question: "Do your thoughts ever feel alien to you in some way?", 
       answers: [
           {
               type: "pdi-1",
@@ -2493,28 +2477,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do your thoughts ever feel aliento you in some way? How distressing this belief is?",
+      question: "Do your thoughts ever feel alien to you in some way? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 78,
       surveytag: 'pdi',
@@ -2528,27 +2511,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do your thoughts ever feel aliento you in some way? How often do you think about it?",
+      question: "Do your thoughts ever feel alien to you in some way? How often do you think about it?",
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 79,
@@ -2563,27 +2546,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do your thoughts ever feel aliento you in some way? How much do you believe it is true?",
+      question: "Do your thoughts ever feel alien to you in some way? How much do you believe it is true?",
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 80,
@@ -2622,28 +2605,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Have your thoughts ever been so vivid that you were worried other people would hear them? How distressing this belief is?",
+      question: "Have your thoughts ever been so vivid that you were worried other people would hear them? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 82,
       surveytag: 'pdi',
@@ -2661,23 +2643,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 83,
@@ -2696,23 +2678,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 84,
@@ -2751,28 +2733,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if your own thoughts were beeing echoed back to you? How distressing this belief is?",
+      question: "Do you ever feel as if your own thoughts were beeing echoed back to you? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 86,
       surveytag: 'pdi',
@@ -2790,23 +2771,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 87,
@@ -2825,23 +2806,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 88,
@@ -2880,28 +2861,27 @@ var quizQuestions = [
   },
 
   {
-      question: "Do you ever feel as if you are a robot or zombie without a will of your own? How distressing this belief is?",
+      question: "Do you ever feel as if you are a robot or zombie without a will of your own? How distressing is this belief?",
       answers: [
           {
               type: "pdi-1",
-              content: "Very distressing"
+              content: "1 - Not at all distressing"
           },
           {
               type: "pdi-2",
-              content: "A lot distressing"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Quite a lot distressing"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "A little distressing"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Not at all distressing"
-          },
+              content: "5 - Very distressing"}, 
       ],
       questionId: 90,
       surveytag: 'pdi',
@@ -2919,23 +2899,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Think about it all the time"
+              content: "1 - Hardly ever think about it"
           },
           {
               type: "pdi-2",
-              content: "Think a lot about it"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Think quite a lot about it"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Think a little about it"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Hardly ever think about it"
+              content: "5 - Think about it all the time"
           },
       ],
       questionId: 91,
@@ -2954,23 +2934,23 @@ var quizQuestions = [
       answers: [
           {
               type: "pdi-1",
-              content: "Believe it is absolutely true"
+              content: "1 - Do not believe it's true"
           },
           {
               type: "pdi-2",
-              content: "Believe it is a lot true"
+              content: "2"
           },
           {
               type: "pdi-3",
-              content: "Believe it is quite a lot true"
+              content: "3"
           },
           {
               type: "pdi-4",
-              content: "Believe it is a little true"
+              content: "4"
           },
           {
               type: "pdi-5",
-              content: "Do not believe it's true"
+              content: "5 - Believe it is absolutely true"
           },
       ],
       questionId: 92,
