@@ -47,7 +47,7 @@ class Intro extends React.Component {
       date_time             : date_time,
       survey_list           : survey_list, 
       block_number_survey   : 0, 
-      debug_survey          : true  
+      // debug_survey          : true  
     }
     
     console.log('Prolific ID:',this.state.prolific_id)
@@ -183,17 +183,17 @@ directToSurvey () {
    }
    // define buttons
    let multibutton
-   let multibutton2 // FOR DEBUG SURVEY ONLY 
+   // let multibutton2 // FOR DEBUG SURVEY ONLY 
 
    if (this.state.count === 0) {
        multibutton = <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.directToBlock()}> Next </Button>
       // THIS IS FOR DEBUG ONLY TO BE REMOVED
-      if (this.state.debug_survey===true) {
-        multibutton2 = <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.directToSurvey()}> SURVEY DEBUG</Button>
-      }
-      else {
-        multibutton2 = '' 
-      } 
+      // if (this.state.debug_survey===true) {
+      //   multibutton2 = <Button variant="secondary" color="danger" size="sm" className="button" type="submit" onClick={()=> this.directToSurvey()}> SURVEY DEBUG</Button>
+      // }
+      // else {
+      //   multibutton2 = '' 
+      // } 
    }
    else {
       multibutton = <div className="center"> <div className="btn-group">
@@ -209,8 +209,6 @@ directToSurvey () {
               {mytext}
           </div>
             {multibutton}
-            <p></p>
-            {multibutton2}
       </div>
   );
 }
