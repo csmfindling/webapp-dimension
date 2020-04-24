@@ -33,11 +33,11 @@ var quizQuestions = [
           },
           {
 						type: "bis-2",
-						content: "Occasionally"
+						content: "Often"
           },
           {
 						type: "bis-3",
-						content: "Often"
+						content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -62,12 +62,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-						  type: "bis-2",
-						  content: "Occasionally"
-					},
-					{
-						  type: "bis-3",
-						  content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -92,12 +92,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-						  type: "bis-2",
-						  content: "Occasionally"
-					},
-					{
-						  type: "bis-3",
-						  content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -122,12 +122,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-						  type: "bis-2",
-						  content: "Occasionally"
-					},
-					{
-						  type: "bis-3",
-						  content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -152,12 +152,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-					  	type: "bis-2",
-					  	content: "Occasionally"
-					},
-					{
-						  type: "bis-3",
-						  content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -181,12 +181,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-						  type: "bis-2",
-						  content: "Occasionally"
-					},
-					{
-						  type: "bis-3",
-						  content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -211,12 +211,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-						  type: "bis-2",
-						  content: "Occasionally"
-					},
-					{
-						  type: "bis-3",
-						  content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -241,12 +241,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-						  type: "bis-2",
-						  content: "Occasionally"
-					},
-					{
-						  type: "bis-3",
-						  content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -271,12 +271,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-						  type: "bis-2",
-						  content: "Occasionally"
-					},
-					{
-						  type: "bis-3",
-						  content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -301,12 +301,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-						  type: "bis-2",
-						  content: "Occasionally"
-					},
-					{
-						  type: "bis-3",
-						  content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -331,18 +331,17 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
               content: "Rarely/Never"
           }
-      ],
       questionId: 11,
       surveytag: 'bis',
       title: '',
@@ -361,12 +360,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -391,12 +390,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -421,12 +420,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -451,12 +450,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -481,12 +480,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -511,12 +510,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -541,12 +540,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -571,12 +570,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-						  type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -600,12 +599,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -630,12 +629,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -659,12 +658,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -689,12 +688,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -719,12 +718,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -749,12 +748,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -779,12 +778,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -809,12 +808,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -839,12 +838,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -868,12 +867,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",
@@ -898,12 +897,12 @@ var quizQuestions = [
               content: "Almost Always/Always"
           },
           {
-							type: "bis-2",
-							content: "Occasionally"
-					},
-					{
-							type: "bis-3",
-							content: "Often"
+            type: "bis-2",
+            content: "Often"
+          },
+          {
+            type: "bis-3",
+            content: "Occasionally"
           },
           {
               type: "bis-4",

@@ -188,7 +188,7 @@ class Survey extends React.Component {
  redirectToEnd(){
       alert("You will now be redirected to the validation page. Please, confirm leaving the page. Thank you!")
       // window.location.replace('https://app.prolific.co/submissions/complete?cc=1A496EDB')
-      window.location = 'https://app.prolific.co/submissions/complete?cc=' + this.props.location.state.participant_info.study_id // CHECK if validation code == stidu id 
+      window.location = 'https://app.prolific.co/submissions/complete?cc=30D8D1A9' // + this.props.location.state.participant_info.study_id // CHECK if validation code == stidu id 
     }
   
 

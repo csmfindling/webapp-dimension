@@ -2710,7 +2710,7 @@ var quizQuestions = [
 
 
 {
-      question: "Do you ever feel as if your own thoughts were beeing echoed back to you?", 
+      question: "Do you ever feel as if your own thoughts were being echoed back to you?", 
       answers: [
           {
               type: "pdi-1",
