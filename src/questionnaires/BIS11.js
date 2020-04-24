@@ -342,6 +342,8 @@ var quizQuestions = [
               type: "bis-4",
               content: "Rarely/Never"
           }
+          ], 
+
       questionId: 11,
       surveytag: 'bis',
       title: '',
