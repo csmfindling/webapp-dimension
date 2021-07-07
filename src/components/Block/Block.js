@@ -12,10 +12,10 @@ class Block extends React.Component {
     const participant_info = this.props.location.state.participant_info
     
     const block_info = {
-      rewards_low : [],
+      rewards_low  : [],
       rewards_high : [],
       correct_side : [],
-      left_symbol : [],
+      left_symbol  : [],
       right_symbol : [],      
       correct_dimension : '',
       trial_numb : 0,
@@ -36,6 +36,8 @@ class Block extends React.Component {
     this._isMounted = false;
     this._handleGoBack.bind(this);   
     this.fetchScore.bind(this);
+    this.redirectToSurvey.bind(this); 
+
 
   }
 
@@ -43,6 +45,8 @@ class Block extends React.Component {
           if((event.keyCode == 32) && (this.state.participant_info.block_number <= (this.state.participant_info.blocks_ids.length - 1)))
           { // space bar code          
           if (this.state.newblock_frame){
+
+          console.log('Push to board',this.state.participant_info.study_id)
           this.setState({newblock_frame : false})
           this.props.history.push({
            pathname: `/Board`,
@@ -123,20 +127,19 @@ class Block extends React.Component {
                 this.setState({ error : error.errorMessage, loading: false }); });
   }
 
-
   async fetchBlock (block_id_) {
    const fetchResult = fetch(`${API_URL}/block/` + block_id_)
             .then(handleResponse)
             .then((data) => {              
               const block_info = {
-              rewards_high   : Object.keys(data['rewards_high']).map((key, index) => (data['rewards_high'][key])),
+              rewards_high  : Object.keys(data['rewards_high']).map((key, index) => (data['rewards_high'][key])),
               rewards_low   : Object.keys(data['rewards_low']).map((key, index) => (data['rewards_low'][key])),
-              correct_side     : Object.keys(data['correct_side']).map((key, index) => (data['correct_side'][key])),
+              correct_side  : Object.keys(data['correct_side']).map((key, index) => (data['correct_side'][key])),
               left_symbol   : Object.keys(data['left_symbol']).map((key, index) => (data['left_symbol'][key])),
               right_symbol  : Object.keys(data['right_symbol']).map((key, index) => (data['right_symbol'][key])),              
               correct_dimension      : data['correct_dimension'],
               trial_numb             : 0,
-              nb_trials_per_block : Object.keys(data['rewards_high']).length,
+              nb_trials_per_block    : Object.keys(data['rewards_high']).length,
             }
                 this.setState({
                     block_info  : block_info,
@@ -146,6 +149,16 @@ class Block extends React.Component {
     const response = await fetchResult;
     return response
   }
+
+  redirectToSurvey() {
+
+    console.log('Push to Survey',this.state.participant_info.study_id)
+          
+    this.props.history.push({
+      pathname: `/Survey`,
+      state: {participant_info: this.state.participant_info, newblock_frame: true} 
+    })
+  } 
 
   render()
   {
@@ -192,14 +205,22 @@ class Block extends React.Component {
          {text}  <div className="translate"/>
       </div>);
     }
-    else if (this.state.participant_info.block_number === this.state.participant_info.blocks_ids.length)
+    else if (this.state.participant_info.block_number === this.state.participant_info.blocks_ids.length) 
     {
-      text = <div><p>Your performance score is {this.state.score} out of 100! Thank you for your participation.</p>
-      <a target="_blank" href="https://app.prolific.co/submissions/complete?cc=30D8D1A9">Click Here</a></div>
-        return (
-      <div className="block">
-        {text}           
-      </div>);      
+      text = <div><p>Your performance score is {this.state.score} out of 100!</p> 
+      <p>Please, proceed to the questionnaires.</p></div>
+
+      return (
+        <div>
+        <div className="block">
+          {text}           
+        </div>);
+        <center>
+          <Button className="button" onClick={()=>this.redirectToSurvey()}>
+            Continue
+          </Button>
+          </center>
+      </div>);       
     }
     else
     {

@@ -105,7 +105,7 @@ class Board extends React.Component {
 
     // update symbol without Mutation
     const newcount     = this.state.block_info.trial_numb + 1
-    const end_of_block = (newcount == this.state.block_info.nb_trials_per_block) ? true : false //  (newcount == 2) ? true : false //  
+    const end_of_block = (newcount === this.state.block_info.nb_trials_per_block) ? true : false //  DEBUG = 1 this.state.block_info.nb_trials_per_block (newcount == 2) ? true : false //  
 
     if (this.state.clickable) {
     
